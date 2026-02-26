@@ -46,7 +46,7 @@ export default function Navbar() {
                         Comment ça marche
                     </a>
                     <a
-                        href="#hero"
+                        href="https://keepyourseed.tiany-rafa.fr/kys-web-app/"
                         className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:bg-indigo-700 hover:shadow-indigo-500/40 hover:-translate-y-0.5"
                     >
                         Tester l&apos;App
@@ -83,7 +83,7 @@ export default function Navbar() {
                             Comment ça marche
                         </a>
                         <a
-                            href="#hero"
+                            href="https://keepyourseed.tiany-rafa.fr/kys-web-app/"
                             className="inline-flex items-center justify-center gap-2 rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25"
                             onClick={() => setMenuOpen(false)}
                         >
