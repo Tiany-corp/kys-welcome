@@ -36,4 +36,4 @@ jobs:
           rsync -avz --delete \
             --exclude '.git*' \
             --exclude 'node_modules' \
-            ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/sites/KeepYourSeed.tiany-rafa.fr/
+            ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:sites/KeepYourSeed.tiany-rafa.fr/
