@@ -11,7 +11,7 @@ export default function Hero() {
     return (
         <section
             id="hero"
-            className="relative overflow-hidden px-6 pt-32 pb-20 md:pt-44 md:pb-32"
+            className="relative overflow-hidden px-6 pt-32 pb-20 md:pt-30 md:pb-32"
         >
             {/* Background gradient blobs */}
             <div className="pointer-events-none absolute inset-0 -z-10">
@@ -22,10 +22,7 @@ export default function Hero() {
             <div className="mx-auto flex max-w-6xl flex-col items-center gap-16 lg:flex-row lg:items-center lg:gap-20">
                 {/* Text content */}
                 <div className="flex flex-1 flex-col items-center text-center lg:items-start lg:text-left">
-                    <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-indigo-50 px-4 py-1.5 text-xs font-semibold text-indigo-700 animate-fade-in">
-                        <Mic className="h-3.5 w-3.5" />
-                        Journal Audio — Local-First
-                    </div>
+
 
                     <h1 className="max-w-xl text-4xl font-extrabold leading-[1.1] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl animate-fade-in-up">
                         Vos idées capturées{" "}
