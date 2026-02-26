@@ -44,7 +44,7 @@ export default function Hero() {
                     <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:gap-3 animate-fade-in-up [animation-delay:200ms]">
                         {/* Version Web */}
                         <a
-                            href="#"
+                            href="https://keepyourseed.tiany-rafa.fr/kys-web-app/"
                             className="group inline-flex items-center justify-center gap-2.5 rounded-full bg-indigo-600 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition-all hover:bg-indigo-700 hover:shadow-xl hover:shadow-indigo-500/30 hover:-translate-y-0.5"
                         >
                             <Globe className="h-4.5 w-4.5" />
