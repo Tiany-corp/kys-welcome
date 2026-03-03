@@ -10,15 +10,15 @@ interface FeatureCardProps {
 function FeatureCard({ icon, title, description, className = "" }: FeatureCardProps) {
     return (
         <div
-            className={`group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/5 hover:-translate-y-1 ${className}`}
+            className={`group relative overflow-hidden rounded-seed border border-seed-border bg-seed-card p-8 transition-all duration-300 hover:border-seed-primary hover:-translate-y-1 ${className}`}
         >
-            <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 transition-colors group-hover:bg-indigo-600 group-hover:text-white">
+            <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-seed bg-seed-bg text-seed-primary transition-colors group-hover:bg-seed-primary group-hover:text-seed-bg">
                 {icon}
             </div>
-            <h3 className="mb-2 text-lg font-bold text-slate-900">{title}</h3>
-            <p className="text-sm leading-relaxed text-slate-500">{description}</p>
-            {/* Hover gradient accent */}
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-0 transition-opacity group-hover:opacity-100" />
+            <h3 className="mb-2 text-lg font-bold text-seed-text">{title}</h3>
+            <p className="text-sm leading-relaxed text-seed-text-muted">{description}</p>
+            {/* Hover accent */}
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1 bg-seed-primary opacity-0 transition-opacity group-hover:opacity-100" />
         </div>
     );
 }
@@ -28,7 +28,7 @@ const features = [
         icon: <Mic className="h-6 w-6" />,
         title: "Capture instantanée",
         description:
-            "Une interface ultra-rapide et minimaliste pour ne jamais perdre une idée. Un simple tap et c'est enregistré.",
+            "Enregistrez en temps réel sur web et mobile. Une interface ultra-rapide pour ne jamais perdre une idée, même fugace.",
     },
     {
         icon: <CloudOff className="h-6 w-6" />,
@@ -38,15 +38,15 @@ const features = [
     },
     {
         icon: <History className="h-6 w-6" />,
-        title: "Historique intelligent",
+        title: "Pensée quotidienne",
         description:
-            "Retrouvez, écoutez et gérez vos notes avec des indicateurs de synchronisation clairs et une navigation intuitive.",
+            "Chaque jour, une pensée différente vous attend. Que ca soit un souvenir ravivé, un début d'idée à perfectionner ou une pensée qui vous a guidé, tout est fait pour entretenir vos pensées.",
     },
     {
         icon: <ShieldCheck className="h-6 w-6" />,
-        title: "Sécurité",
+        title: "Un jardin privé et sécurisé",
         description:
-            "Authentification sécurisée et stockage cloud chiffré pour protéger vos idées les plus précieuses.",
+            "Vos audios n'appartiennent qu'à vous. L'authentification sécurisée et le stockage chiffré pour protéger votre intimité.",
     },
 ];
 
@@ -55,16 +55,16 @@ export default function Features() {
         <section id="features" className="px-6 py-24 md:py-32">
             <div className="mx-auto max-w-6xl">
                 <div className="mb-16 text-center">
-                    <p className="mb-3 text-sm font-semibold tracking-wider text-indigo-600 uppercase">
-                        Fonctionnalités
+                    <p className="mb-3 text-sm font-semibold tracking-wider text-seed-secondary uppercase">
+                        Un journal qui a du sens
                     </p>
-                    <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-                        Tout ce qu&apos;il vous faut,{" "}
-                        <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                            rien de superflu.
+                    <h2 className="text-3xl font-extrabold tracking-tight text-seed-text sm:text-4xl">
+                        Pensé pour vous et{" "}
+                        <span className="text-seed-primary">
+                            votre pensée.
                         </span>
                     </h2>
-                    <p className="mx-auto mt-4 max-w-2xl text-slate-500">
+                    <p className="mx-auto mt-4 max-w-2xl text-seed-text-muted">
                         KeepYourSeed a été conçu pour être l&apos;outil le plus simple et le
                         plus fiable pour capturer vos pensées vocales.
                     </p>
@@ -78,11 +78,6 @@ export default function Features() {
                             icon={f.icon}
                             title={f.title}
                             description={f.description}
-                            className={
-                                i < 2
-                                    ? "lg:col-span-2"
-                                    : ""
-                            }
                         />
                     ))}
                 </div>
