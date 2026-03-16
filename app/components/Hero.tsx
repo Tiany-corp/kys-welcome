@@ -49,11 +49,11 @@ export default function Hero() {
                         </a>
                         {/* Télécharger l'APK */}
                         <a
-                            href="#"
+                            href="https://expo.dev/artifacts/eas/mih6P7QCrMWGN786cUugMM.apk"
                             className="group inline-flex items-center justify-center gap-2.5 rounded-seed border-2 border-seed-border bg-seed-bg px-7 py-3.5 text-sm font-semibold text-seed-text transition-all hover:border-seed-primary hover:bg-seed-card hover:-translate-y-0.5"
                         >
                             <Download className="h-4.5 w-4.5" />
-                            Télécharger l&apos;APK (bientôt)
+                            Télécharger l&apos;APK
                         </a>
                     </div>
                 </div>
@@ -63,9 +63,9 @@ export default function Hero() {
                             {/* Notch */}
                             <div className="absolute top-0 left-1/2 z-10 h-6 w-28 -translate-x-1/2 rounded-b-2xl bg-seed-text" />
                             {/* Screen content */}
-                            <div className="relative mt-7 h-full w-full overflow-hidden bg-seed-bg">
+                            <div className="relative mt-5 h-full w-full overflow-hidden bg-seed-bg">
                                 <Image
-                                    src="/mockup.png"
+                                    src="/Iphone.png"
                                     alt="KeepYourSeed App Mockup"
                                     fill
                                     className="object-cover"
