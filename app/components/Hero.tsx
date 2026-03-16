@@ -32,8 +32,7 @@ export default function Hero() {
 
                     <p className="mt-6 max-w-lg text-lg leading-relaxed text-seed-text-muted animate-fade-in-up [animation-delay:100ms]">
                         KeepYourSeed est votre journal audio instantané. Capturez une pensée
-                        d&apos;un simple tap, retrouvez-la hors-ligne, et synchronisez-la
-                        automatiquement dans le cloud.
+                        d&apos;un simple tap, retrouvez-la hors-ligne, et sur n'importe quel appareil.
                     </p>
 
                     {/* CTA Buttons */}
@@ -49,7 +48,7 @@ export default function Hero() {
                         </a>
                         {/* Télécharger l'APK */}
                         <a
-                            href="https://expo.dev/artifacts/eas/mih6P7QCrMWGN786cUugMM.apk"
+                            href="https://keepyourseed.tiany-rafa.fr/kys-android-app/keep-your-seed.apk"
                             className="group inline-flex items-center justify-center gap-2.5 rounded-seed border-2 border-seed-border bg-seed-bg px-7 py-3.5 text-sm font-semibold text-seed-text transition-all hover:border-seed-primary hover:bg-seed-card hover:-translate-y-0.5"
                         >
                             <Download className="h-4.5 w-4.5" />
