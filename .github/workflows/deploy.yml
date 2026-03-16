@@ -38,4 +38,6 @@ jobs:
             --exclude 'node_modules' \
             --exclude 'kys-web-app' \
             --exclude 'kys-web-app/**' \
+            --exclude 'kys-android-app' \
+            --exclude 'kys-android-app/**' \
             ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:sites/KeepYourSeed.tiany-rafa.fr/
