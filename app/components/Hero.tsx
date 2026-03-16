@@ -31,7 +31,7 @@ export default function Hero() {
                     </h1>
 
                     <p className="mt-6 max-w-lg text-lg leading-relaxed text-seed-text-muted animate-fade-in-up [animation-delay:100ms]">
-                        KeepYourSeed est votre journal audio instantané. Capturez chaque pensée
+                        KeepYourSeed est votre journal audio instantané. Capturez une pensée
                         d&apos;un simple tap, retrouvez-la hors-ligne, et synchronisez-la
                         automatiquement dans le cloud.
                     </p>
