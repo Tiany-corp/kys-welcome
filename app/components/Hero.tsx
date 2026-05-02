@@ -48,7 +48,7 @@ export default function Hero() {
                         </a>
                         {/* Télécharger l'APK */}
                         <a
-                            href="https://keepyourseed.tiany-rafa.fr/kys-android-app/keep-your-seed.apk"
+                            href="https://keepyourseed.tiany-rafa.fr/kys-android-app/keep-your-v1-2.apk"
                             className="group inline-flex items-center justify-center gap-2.5 rounded-seed border-2 border-seed-border bg-seed-bg px-7 py-3.5 text-sm font-semibold text-seed-text transition-all hover:border-seed-primary hover:bg-seed-card hover:-translate-y-0.5"
                         >
                             <Download className="h-4.5 w-4.5" />
